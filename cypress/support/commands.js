@@ -14,10 +14,10 @@ Cypress.Commands.add('login', (
 ) => {
   const login = () => {
     cy.visit('/login')
-    cy.get('#username').type(username)
+    cy.get('#email').type(username)
     cy.get('#password').type(password, { log: false })
-    cy.contains('button', 'Logar').click()
-    //cy.contains('h1', 'Your Notes').should('be.visible')
+    cy.contains('button', 'Login').click()
+    cy.contains('h1', 'Your Notes').should('be.visible')
   }
 
   if (cacheSession) {
