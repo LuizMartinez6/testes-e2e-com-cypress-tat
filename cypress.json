@@ -1,5 +1,5 @@
 {
-    "baseUrl": "https://notes-serverless-app.com",
+    "baseUrl": "https://develop.inovacao.d1.cx/",
     "experimentalSessionSupport" : true,
     "defaultCommandTimeout": 20000,
     "chromeWebSecurity": false,
